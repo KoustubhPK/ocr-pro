@@ -9,6 +9,13 @@ A simple and efficient OCR-based data extraction tool for Indian PAN and
 Aadhaar cards using [Tesseract
 OCR](https://github.com/tesseract-ocr/tesseract).
 
+## 🆕 What's New in v0.1.2
+
+- Added `tesseract_cmd` parameter to `ExtractAadhaarData` and `ExtractPanData` for custom Tesseract paths.  
+- Fixed issue with preprocessing argument (`preprocess`) in child classes not being passed correctly.  
+
+*(For full version history, see [CHANGELOG.md](CHANGELOG.md))*
+
 ## ✨ Features
 
 - Extract PAN card data with a single function call
