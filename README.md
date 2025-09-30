@@ -40,7 +40,7 @@ from ocr import ExtractPanData
 # Default usage (preprocess=False by default)
 pan_data = ExtractPanData("pan_image.jpg", tesseract_cmd="/usr/bin/tesseract")
 
-print(pan_data)
+print(pan_data.get_pan())
 ```
 
 ### Extract Aadhaar Card Data
@@ -51,7 +51,7 @@ from ocr import ExtractAadhaarData
 # You can also enable preprocessing
 aadhaar_data = ExtractAadhaarData("aadhaar_image.jpg", tesseract_cmd="/usr/bin/tesseract", preprocess=True)
 
-print(aadhaar_data)
+print(aadhaar_data.get_aadhaar())
 ```
 
 ### Arguments
