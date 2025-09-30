@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.3] - 2025-09-30
+
+### Fixed
+- Corrected README usage examples (`get_pan()` and `get_aadhaar()`).
+
 ## [0.1.2] - 2025-09-28
 ### Added / Fixed
 - Added `tesseract_cmd` parameter to `ExtractAadhaarData` and `ExtractPanData` to allow custom Tesseract paths.
