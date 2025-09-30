@@ -30,6 +30,7 @@ MANIFEST
 env/
 venv/
 ENV/
+result/
 .venv/
 env.bak/
 
@@ -49,6 +50,7 @@ nosetests.xml
 coverage.xml
 setup.py
 test.py
+config.py
 *.cover
 *.py,cover
 .hypothesis/
